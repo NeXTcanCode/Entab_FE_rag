@@ -13,7 +13,7 @@ import LoadingDots from "./LoadingDots";
 import Message from "./Message";
 import GitHubLinks from "../GitHubLinks";
 
-const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://entab-be-rag-qdrant-1.onrender.com";
+const backendUrl = import.meta.env.VITE_BACKEND_URL || "https://entab-be-rag-qdrant.onrender.com";
 
 const outputModes = [
   { value: "code", label: "Code" },
